@@ -1,0 +1,22 @@
+[package]
+name = "easydb"
+description = "An iterface for working with easydb.io in rust."
+homepage = "https://github.com/drewtato/easydb-rust"
+documentation = "https://docs.rs/easydb"
+repository = "https://github.com/drewtato/easydb-rust"
+readme = "README.md"
+keywords = ["easydb"]
+categories = ["api-bindings", "database"]
+license = "MIT"
+version = "0.1.0"
+authors = ["Drewtato <ai@andrewirino.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "^0.9.22"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "^1.0.41"
+toml = "^0.5.5"
+error-chain = "^0.12.1"
