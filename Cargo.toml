@@ -7,16 +7,19 @@ repository = "https://github.com/drewtato/easydb-rust"
 readme = "README.md"
 keywords = ["easydb"]
 categories = ["api-bindings", "database"]
-license = "MIT"
-version = "0.1.0"
+license = "MIT OR Apache-2.0"
+version = "0.2.0" # Update html_root_url when updating version
 authors = ["Drewtato <ai@andrewirino.com>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+# Sending requests to the DB
 reqwest = "^0.9.22"
+# Deriving serialize and deserialize
 serde = { version = "1.0", features = ["derive"] }
+# Dealing with json requests to and from the DB
 serde_json = "^1.0.41"
+# Dealing with the toml configuration file easydb.toml
 toml = "^0.5.5"
+# Errors
 error-chain = "^0.12.1"
