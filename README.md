@@ -13,9 +13,9 @@ An interface for working with [easydb.io](https://easydb.io) in rust.
 Licensed under either of
 
 * Apache License, Version 2.0
-   <http://www.apache.org/licenses/LICENSE-2.0)>
+   <http://www.apache.org/licenses/LICENSE-2.0>
 * MIT license
-   <http://opensource.org/licenses/MIT)>
+   <http://opensource.org/licenses/MIT>
 
 at your option.
 
