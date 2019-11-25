@@ -1,7 +1,7 @@
 # Rust-Client
 EasyDB Rust Client
 
-This crate has not yet been implemented. If you'd like to write it, I'll pay you!
+This client has not yet been implemented. If you'd like to write it, I'll pay you!
 
 Just implement the following 4 functions with their respective cURLs:
 
